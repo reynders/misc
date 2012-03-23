@@ -1,0 +1,16 @@
+MongoDB performance test utilities
+
+Prepare MongoDB with test data
+1) Start mongod
+2) Run "mongo pet" from mongopet folder
+3) load("testdata.js")
+4) Check that the data is there with db.invoices.find()
+
+Run mongopet test(s)
+1) Install sbt
+2) Start sbt and run "run"
+
+In case of problems check:
+* scala version (tested with 2.9.1)
+* sbt version (0.11.2)
+* MongoDb host (localhost) and port (27017)
