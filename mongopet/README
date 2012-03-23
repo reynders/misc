@@ -4,7 +4,7 @@ Prepare MongoDB with test data
 1) Start mongod
 2) Run "mongo pet" from mongopet folder
 3) load("testdata.js")
-4) Check that the data is there with db.invoices.find()
+4) Check that the data is there with db.testdata.find()
 
 Run mongopet test(s)
 1) Install sbt
