@@ -40,7 +40,7 @@ class MongoPet {
 object MongoPet extends App {
 	override def main(args : Array[String]) {
 		println("Starting test")
-    new MongoPet().javaDriverTest(100, 10)
+    new MongoPet().javaDriverTest(100, 1000000)
     println("Test finished")
 	}
 }

@@ -1,4 +1,4 @@
-DATA_SIZE=10
+DATA_SIZE=1000000
 
 for(i=0; i<DATA_SIZE; i++) {
 	db.testdata.save({
